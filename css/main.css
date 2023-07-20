@@ -1,0 +1,133 @@
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid black;
+    font: normal normal 12px/1.5 arial sans-serif;
+}
+header,nav,footer{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    height: 10vh;
+}
+
+header{
+    background-color: aquamarine;
+    height: 150px;
+}
+
+nav{
+    background-color: beige;
+}
+
+ul{
+list-style-type: None;
+line-height: 250%;
+font-size: large;
+}
+
+nav a{
+    text-decoration: none;
+    border: 1px dashed black;
+    float: right;
+    padding: 5px;
+    margin: auto 15px;
+    background-color: lightgrey;
+    font-size: large;
+
+}
+nav a:hover{
+    background-color: darkgray;
+    color: darkblue;
+}
+
+.logo{
+width: 170px;
+height: 90px;
+
+}
+
+.mainpicfig{
+width: 95%;
+height: 80%;
+}
+
+
+
+figure{
+    margin: auto;
+    padding: 50px;
+    border: 4px solid coral;
+}
+
+main{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    height: 200vh;
+    width: 58%;
+    float: left;
+    border: 2px solid black;
+
+}
+aside{
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 20px;
+    height: 200vh;
+    width: 28%;
+    float: right;
+    border: 2px solid black;
+
+}
+footer{
+    background-color: aquamarine;
+    clear: both;
+    font-size: 80%;
+    text-align: center;
+}
+
+
+
+
+
+input{
+    display: block;
+    margin: 2px;
+    padding: 2px;
+}
+
+
+fieldset{
+    padding: 10px;
+    margin: 7px;
+}
+
+.submit,.reset{
+    margin: 1px;
+    
+    display: inline;
+
+}
+
+legend{
+    font-size: 110%;
+    font-weight: 590;
+}
+
+
+@media (max-width: 1200px){
+    body{
+        max-width: 1200px;
+        
+    }
+
+    main,aside{
+        float: none;
+        width: auto;
+
+    }
+}
+

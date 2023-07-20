@@ -1,0 +1,87 @@
+<!-- Thomas Gofar tgofar2367@conestogac.on.ca-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Thomas AS3 Website</title>
+</head>
+
+ <body>
+
+<header>
+<h1> Contact Page</h1> 
+<img class="logo" name="logo" id="b" src="images/skysports-antony-man-utd-football_6067765.jpg" alt="Man United stadium Logo">
+</header>
+<nav>
+<a right href="index.html" >Home</a>
+<a right href="contact.html">Contact Us</a>
+</nav>  
+
+<aside>
+<h2>Hello User</h2>
+<ul>
+<li>Cofee</li>
+<li>Tea</li>    
+<li>Milk</li>
+</ul>
+</aside>
+
+<main>
+<h2>New main</h2>
+<form name="contact_us" id ="contact_us" action="contact" method="post" autocomplete="on">
+<fieldset >
+    <legend>Personal Information</legend>
+    <label for="Name">Name</label>
+    <input type="text" id="name" autofocus required >
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <label for="phone">Your Phone Number</label>
+    <input type="tel" id="tel" name="tel" maxlength="12" placeholder="333-444-5555" pattern="">
+    <label for="Employment Status">Employment Status</label>
+    <select name="Employment Status" id="Employment Status" required>
+    <option value="">Select Option</option>
+    <option value="Student">Student</option>
+    <option value="Employed Full-Time">Employed Full-Time</option>
+    <option value="Employed Part-Time">Employed Part-Time</option>
+    <option value="Retired">Retired</option>
+    <option value="Other">Other</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend>How Did You Hear About Our Site?</legend>
+    <label>Social Media</label>
+    <input type="radio" name="source" value="Social Media" required=>
+    <label>Friend</label>
+    <input type="radio" name="source" value="Friend" required=>
+    <label>Search Engine</label>
+    <input type="radio" name="source" value="Search Engine" required>
+    <label>Other</label>
+    <input type="radio" name="source" value="Other" required=>
+</fieldset>
+<fieldset>
+    <legend>Tell Us What You Think!</legend>
+    <label for="Comments">Comments</label>
+    <input type="text" width="fit-content" id="opinion" placeholder="Type Here" required>
+</fieldset>
+<fieldset>
+    <legend>Submit</legend>
+    <label for="Checkbox">I am not a robot</label>
+    <input type="checkbox">
+    <input class="submit" type="submit">
+    <input class="reset" type="reset">
+</fieldset>
+
+</form>
+</main>
+ </body>
+<footer>
+<p>&copy;2023 Thomas Gofar 8892367</p>
+
+
+</footer>
+</html>
